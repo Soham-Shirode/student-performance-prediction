@@ -2,13 +2,16 @@
 
 Regression-based analysis and prediction of student performance using Python.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pandas,numpy,sklearn,jupyter,vscode" />
+  <img src="https://skillicons.dev/icons?i=python,sklearn,vscode&perline=3" />
 </p>
 
-## 📌 Project Overview
+**Libraries:** Pandas, NumPy  
+**Environment:** Jupyter Notebook
+
+## Project Overview
 
 This project uses Multiple Linear Regression to predict the Performance Index of students based on their study habits and academic factors.
 
@@ -18,7 +21,7 @@ Three regression models were developed and compared:
 - MLR with a Quadratic Term
 - MLR with an Interaction Term
 
-## 📊 Dataset
+## Dataset
 
 The dataset contains 499 student records with the following variables:
 
@@ -29,7 +32,7 @@ The dataset contains 499 student records with the following variables:
 - Sample Question Papers Practiced
 - Performance Index
 
-## 🎯 Objectives
+## Objectives
 
 - Develop a Basic Multiple Linear Regression model.
 - Evaluate the model using R², Adjusted R², MAE, MSE, and RMSE.
@@ -38,7 +41,7 @@ The dataset contains 499 student records with the following variables:
 - Compare the performance of all three models.
 - Predict the Performance Index for a given student.
 
-## 🤖 Model Development
+## Model Development
 
 ### Model 1 — Basic Multiple Linear Regression
 
@@ -52,7 +55,7 @@ A quadratic term for `Hours Studied` was added to the model to check whether a n
 
 An interaction term between `Hours Studied` and `Previous Scores` was added to check whether the effect of one variable depends on the other.
 
-## 📈 Model Comparison
+## Model Comparison
 
 | Model | R² | Adjusted R² | RMSE |
 |---|---:|---:|---:|
@@ -62,7 +65,7 @@ An interaction term between `Hours Studied` and `Previous Scores` was added to c
 
 The **Basic Multiple Linear Regression** model performed slightly better based on the comparison of R², Adjusted R², and RMSE.
 
-## 🔮 Prediction
+## Prediction
 
 The models were used to predict the Performance Index for a student with the following values:
 
@@ -86,6 +89,6 @@ The **Basic MLR** was selected as the final model.
 
 **Final Predicted Performance Index: 80.46**
 
-## 👤 Author
+## Author
 
 **Soham Shirode**
